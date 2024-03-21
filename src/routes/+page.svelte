@@ -1,5 +1,7 @@
 <script lang="ts">
+	import CreateCard from './components/CreateCard.svelte';
+
 	const { data } = $props();
 </script>
 
-<h1>Home page</h1>
+<CreateCard />
