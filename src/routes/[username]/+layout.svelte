@@ -3,8 +3,8 @@
 	import user from '$lib/icons/user.svg';
 </script>
 
-<div class="flex min-h-dvh flex-col bg-gradient-to-b from-gray-700 via-gray-700 to-gray-900">
-	<header class="flex justify-end px-4">
+<div class="flex min-h-dvh flex-col bg-[#111111]">
+	<header class="flex h-14 items-center justify-end px-5">
 		<img src={user} alt="user" />
 	</header>
 	<main class="flex-1">
