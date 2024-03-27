@@ -1,15 +1,11 @@
 <script lang="ts">
-	const {
-		backgroundColor,
-		keyContact,
-		linkIcon,
-		nameContact
-	}: {
+	type Props = {
 		backgroundColor: string;
 		keyContact: string;
 		linkIcon: string;
 		nameContact: string;
-	} = $props();
+	};
+	const { backgroundColor, keyContact, linkIcon, nameContact }: Props = $props();
 </script>
 
 <div

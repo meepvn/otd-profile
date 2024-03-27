@@ -1,11 +1,12 @@
 <script lang="ts">
 	import stack from '$lib/icons/stack.svg';
+	type Props = { thumbnail: string; name: string; imageCount: number; customerName: string }
 	const {
 		customerName,
 		imageCount,
 		name,
 		thumbnail
-	}: { thumbnail: string; name: string; imageCount: number; customerName: string } = $props();
+	}:Props  = $props();
 </script>
 
 <div class="grid gap-3 text-xs text-white">
