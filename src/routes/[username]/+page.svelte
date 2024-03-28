@@ -24,8 +24,6 @@
 
 <Hero {...profile} />
 
-<div class="pb-[90px]"></div>
-
 <div class="mx-3 grid gap-3 rounded-[18px] bg-[#1E2530] p-3 text-white">
 	{#each contacts as contact (contact.id)}
 		<ContactItem {...contact} />

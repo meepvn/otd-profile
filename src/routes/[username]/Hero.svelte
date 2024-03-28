@@ -4,9 +4,9 @@
 	const { backgrounds, avatar, name, description }: Profile = $props();
 </script>
 
-<div class="relative">
+<div class="grid">
 	<img src={backgrounds[0]} alt={name} />
-	<div class="absolute -bottom-1/3 flex w-full items-end gap-3 px-5">
+	<div class="flex -translate-y-1/3 items-end gap-3 px-5">
 		<div class="aspect-square w-[100px] rounded-full">
 			<img src={avatar} alt={name} class="rounded-full" />
 		</div>
