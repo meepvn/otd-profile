@@ -1,6 +1,6 @@
 import type { Action } from 'svelte/action';
 
-type CreateVcfAction = Action<
+type DownloadVcfAction = Action<
 	HTMLElement,
 	{
 		type: string;
@@ -9,7 +9,7 @@ type CreateVcfAction = Action<
 	}
 >;
 
-export const createVcf: CreateVcfAction = (element, { contact, type, name }) => {
+export const downloadVcf: DownloadVcfAction = (element, { contact, type, name }) => {
 	if (type !== 'phone') return;
 	const handleOnClick = () => {
 		const vcard =

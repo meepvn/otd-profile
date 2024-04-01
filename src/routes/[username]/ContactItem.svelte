@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createVcf } from '$lib/actions/createVcf';
+	import { downloadVcf } from '$lib/actions/downloadVcf';
 	type Props = {
 		backgroundColor: string;
 		keyContact: string;
@@ -16,7 +16,7 @@
 <button
 	class="flex cursor-pointer items-center overflow-hidden rounded-lg"
 	style="background-color: {backgroundColor};"
-	use:createVcf={{
+	use:downloadVcf={{
 		contact: infoDetail,
 		name: username,
 		type: keyContact
