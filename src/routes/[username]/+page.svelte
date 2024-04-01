@@ -1,5 +1,4 @@
 <script lang="ts">
-	import CreateCard from '$lib/components/CreateCard.svelte';
 	import ContactItem from './ContactItem.svelte';
 	import GalleryItem from './GalleryItem.svelte';
 	import Hero from './Hero.svelte';
