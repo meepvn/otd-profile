@@ -6,8 +6,10 @@
 		linkIcon: string;
 		nameContact: string;
 		infoDetail: string;
+		username: string;
 	};
-	const { backgroundColor, keyContact, linkIcon, nameContact, infoDetail }: Props = $props();
+	const { backgroundColor, keyContact, linkIcon, nameContact, infoDetail, username }: Props =
+		$props();
 	const contactType = $derived(keyContact === 'phone' ? 'phone' : 'other');
 </script>
 
@@ -16,7 +18,7 @@
 	style="background-color: {backgroundColor};"
 	use:createVcf={{
 		contact: infoDetail,
-		name: nameContact,
+		name: username,
 		type: keyContact
 	}}
 >
