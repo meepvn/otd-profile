@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CreateCard from '$lib/components/CreateCard.svelte';
 	import ContactItem from './ContactItem.svelte';
 	import GalleryItem from './GalleryItem.svelte';
 	import Hero from './Hero.svelte';
@@ -21,7 +22,6 @@
 <svelte:head>
 	<title>{profile.name}</title>
 </svelte:head>
-
 <Hero {...profile} />
 
 <div class="mx-3 grid gap-3 rounded-[18px] bg-[#1E2530] p-3 text-white">

@@ -5,9 +5,9 @@
 
 <div class="grid place-items-center gap-3">
 	<div class="flex gap-2">
-		<Button type="secondary">Thẻ hồ sơ</Button>
-		<Button type="secondary">Thẻ thư viện</Button>
+		<Button color="secondary">Thẻ hồ sơ</Button>
+		<Button color="secondary">Thẻ thư viện</Button>
 	</div>
 	<img src={card} alt="card" />
-	<Button type="primary">Thêm thẻ</Button>
+	<Button color="primary">Thêm thẻ</Button>
 </div>
